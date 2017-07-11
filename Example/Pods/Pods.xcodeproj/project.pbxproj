@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387B030709FC9F64031999B56B06664D /* Pods-GlowingEffectView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B023601A7F181BB6359373B164CA2C5D /* Pods-GlowingEffectView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C67051824EBFF5960029386BD9C22B /* Pods-GlowingEffectView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036B3716CA5B1028DC2D0BC4EA0936B /* Pods-GlowingEffectView_Tests-dummy.m */; };
+		69F90DF91D80975277FB865AE889EB11 /* Pods-GlowingEffectView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8605F7FF0D33C2E49C8E70D343AB8CC6 /* Pods-GlowingEffectView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7DBD9FD2F3CCA42AE6B6F638F52747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9673D9AF3A0B23D2DC8A64739C489420 /* GlowingEffectView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD828A7D31D42D6CFFD52DA946F59C13 /* GlowingEffectView-dummy.m */; };
+		BC37F17B6BCF88BDDB4386A078BCA5DD /* GlowingEffectView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1043502F89236E0AEE570F166AEE /* GlowingEffectView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C197051F85E9F458A4A1A2616D608C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE8A8B83CA46897888B82C06CAF54B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E96C0836B04864D53548BCB7819398F8 /* Pods-GlowingEffectView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FAD5427FCA41D271D64D6B3B3DB74D /* Pods-GlowingEffectView_Example-dummy.m */; };
+		F826AE391F14C433007822E3 /* GlowingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826AE381F14C433007822E3 /* GlowingEffectView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3685BD460205A9F0E811BC11259D8D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B53BE5570D22142E2514C7457E7EF4;
+			remoteInfo = GlowingEffectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0066C0E852E28E283F1BF3559920C17D /* Pods-GlowingEffectView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlowingEffectView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1036B3716CA5B1028DC2D0BC4EA0936B /* Pods-GlowingEffectView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlowingEffectView_Tests-dummy.m"; sourceTree = "<group>"; };
+		13FC6CC30FF13029042FEB67809BD634 /* Pods-GlowingEffectView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlowingEffectView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		14FAD5427FCA41D271D64D6B3B3DB74D /* Pods-GlowingEffectView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlowingEffectView_Example-dummy.m"; sourceTree = "<group>"; };
+		42074DB7D3D8F500BFFECCA322AF3B7A /* Pods-GlowingEffectView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlowingEffectView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5123E049BB9E68D89FC2CB0763A66B5D /* Pods-GlowingEffectView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GlowingEffectView_Tests.modulemap"; sourceTree = "<group>"; };
+		547335DD2573C210D15CEB31419D9B28 /* Pods-GlowingEffectView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlowingEffectView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5475F699DD8990F9DE5566CDAF28B453 /* Pods-GlowingEffectView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlowingEffectView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6900EC2841269821FFD7B66792A74F1E /* Pods-GlowingEffectView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlowingEffectView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6BCB45DB018461A357E9733730262DC5 /* Pods-GlowingEffectView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlowingEffectView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73E2196DB5ECE14C462D4E9E9879F89F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E7E58FCAF10D8C5797EF4B02589AFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E088F5310C743E649707E1FCAB0C73 /* GlowingEffectView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlowingEffectView.xcconfig; sourceTree = "<group>"; };
+		8605F7FF0D33C2E49C8E70D343AB8CC6 /* Pods-GlowingEffectView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlowingEffectView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B023601A7F181BB6359373B164CA2C5D /* Pods-GlowingEffectView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlowingEffectView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B62C0B14E0082A66A1BBC3325EF6B70B /* GlowingEffectView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlowingEffectView-prefix.pch"; sourceTree = "<group>"; };
+		B813D655D8EE015C8717788A50FE9286 /* Pods-GlowingEffectView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlowingEffectView_Example-resources.sh"; sourceTree = "<group>"; };
+		BB852520DE8A83E9181D706366A0C797 /* Pods-GlowingEffectView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlowingEffectView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C1C3CD8D862105671935BCD000CC1047 /* GlowingEffectView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GlowingEffectView.modulemap; sourceTree = "<group>"; };
+		C70EE9674F935A72069BB38CDDAD96CA /* GlowingEffectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlowingEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAAB9C32C5AFB288BD69E5A19B4A0F9 /* Pods_GlowingEffectView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlowingEffectView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFCF0C2CF465333BE075A8450F1030B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96B4DB9A076E0274F1B7C3196328C6E /* Pods-GlowingEffectView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlowingEffectView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E694C4614D64723A11B8FC5B5CE43CE5 /* Pods-GlowingEffectView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GlowingEffectView_Example.modulemap"; sourceTree = "<group>"; };
+		EAE45BCE0853401D163BC8108FB345C7 /* Pods-GlowingEffectView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlowingEffectView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F1F1108A5195EB0C9CC3289D4522199E /* Pods-GlowingEffectView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlowingEffectView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6CB1043502F89236E0AEE570F166AEE /* GlowingEffectView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlowingEffectView-umbrella.h"; sourceTree = "<group>"; };
+		F826AE381F14C433007822E3 /* GlowingEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlowingEffectView.swift; sourceTree = "<group>"; };
+		FD828A7D31D42D6CFFD52DA946F59C13 /* GlowingEffectView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlowingEffectView-dummy.m"; sourceTree = "<group>"; };
+		FF7091579CDDBFB6133CB58397F448CE /* Pods_GlowingEffectView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlowingEffectView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222F19B5FFAFA8F7D45784B846CB12AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C197051F85E9F458A4A1A2616D608C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E273B8E6C25CC7950CBB627029E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7DBD9FD2F3CCA42AE6B6F638F52747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D0585393B9F4708138A500C0752FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8A8B83CA46897888B82C06CAF54B13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080453F371E446E44AFF439561E0C4AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14780855E7589309529967E2BFF777FD /* GlowingEffectView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0FCF5E62B56784768922C36017D9EF4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3CD8D862105671935BCD000CC1047 /* GlowingEffectView.modulemap */,
+				84E088F5310C743E649707E1FCAB0C73 /* GlowingEffectView.xcconfig */,
+				FD828A7D31D42D6CFFD52DA946F59C13 /* GlowingEffectView-dummy.m */,
+				B62C0B14E0082A66A1BBC3325EF6B70B /* GlowingEffectView-prefix.pch */,
+				F6CB1043502F89236E0AEE570F166AEE /* GlowingEffectView-umbrella.h */,
+				CDFCF0C2CF465333BE075A8450F1030B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GlowingEffectView";
+			sourceTree = "<group>";
+		};
+		14780855E7589309529967E2BFF777FD /* GlowingEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				67D789984C1849DCFA1FEDAFEFFA3FF6 /* GlowingEffectView */,
+				0FCF5E62B56784768922C36017D9EF4F /* Support Files */,
+			);
+			name = GlowingEffectView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		198074408312774D665C7EFE035EA9B1 /* Pods-GlowingEffectView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73E2196DB5ECE14C462D4E9E9879F89F /* Info.plist */,
+				5123E049BB9E68D89FC2CB0763A66B5D /* Pods-GlowingEffectView_Tests.modulemap */,
+				F1F1108A5195EB0C9CC3289D4522199E /* Pods-GlowingEffectView_Tests-acknowledgements.markdown */,
+				13FC6CC30FF13029042FEB67809BD634 /* Pods-GlowingEffectView_Tests-acknowledgements.plist */,
+				1036B3716CA5B1028DC2D0BC4EA0936B /* Pods-GlowingEffectView_Tests-dummy.m */,
+				EAE45BCE0853401D163BC8108FB345C7 /* Pods-GlowingEffectView_Tests-frameworks.sh */,
+				D96B4DB9A076E0274F1B7C3196328C6E /* Pods-GlowingEffectView_Tests-resources.sh */,
+				8605F7FF0D33C2E49C8E70D343AB8CC6 /* Pods-GlowingEffectView_Tests-umbrella.h */,
+				42074DB7D3D8F500BFFECCA322AF3B7A /* Pods-GlowingEffectView_Tests.debug.xcconfig */,
+				6900EC2841269821FFD7B66792A74F1E /* Pods-GlowingEffectView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GlowingEffectView_Tests";
+			path = "Target Support Files/Pods-GlowingEffectView_Tests";
+			sourceTree = "<group>";
+		};
+		3514BA5CE2A1D4F7CF3C22740AAF3FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70EE9674F935A72069BB38CDDAD96CA /* GlowingEffectView.framework */,
+				FF7091579CDDBFB6133CB58397F448CE /* Pods_GlowingEffectView_Example.framework */,
+				CAAAB9C32C5AFB288BD69E5A19B4A0F9 /* Pods_GlowingEffectView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA1124DACC3619B186A63175FF4C7A3 /* Pods-GlowingEffectView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				78E7E58FCAF10D8C5797EF4B02589AFE /* Info.plist */,
+				E694C4614D64723A11B8FC5B5CE43CE5 /* Pods-GlowingEffectView_Example.modulemap */,
+				547335DD2573C210D15CEB31419D9B28 /* Pods-GlowingEffectView_Example-acknowledgements.markdown */,
+				6BCB45DB018461A357E9733730262DC5 /* Pods-GlowingEffectView_Example-acknowledgements.plist */,
+				14FAD5427FCA41D271D64D6B3B3DB74D /* Pods-GlowingEffectView_Example-dummy.m */,
+				BB852520DE8A83E9181D706366A0C797 /* Pods-GlowingEffectView_Example-frameworks.sh */,
+				B813D655D8EE015C8717788A50FE9286 /* Pods-GlowingEffectView_Example-resources.sh */,
+				B023601A7F181BB6359373B164CA2C5D /* Pods-GlowingEffectView_Example-umbrella.h */,
+				5475F699DD8990F9DE5566CDAF28B453 /* Pods-GlowingEffectView_Example.debug.xcconfig */,
+				0066C0E852E28E283F1BF3559920C17D /* Pods-GlowingEffectView_Example.release.xcconfig */,
+			);
+			name = "Pods-GlowingEffectView_Example";
+			path = "Target Support Files/Pods-GlowingEffectView_Example";
+			sourceTree = "<group>";
+		};
+		67D789984C1849DCFA1FEDAFEFFA3FF6 /* GlowingEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECFD4A2202C0616F6A969C1CD47DD2 /* Classes */,
+			);
+			path = GlowingEffectView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				080453F371E446E44AFF439561E0C4AE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3514BA5CE2A1D4F7CF3C22740AAF3FCD /* Products */,
+				D382E52875C19630EDD7AD3A5CA32F12 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4ECFD4A2202C0616F6A969C1CD47DD2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F826AE381F14C433007822E3 /* GlowingEffectView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D382E52875C19630EDD7AD3A5CA32F12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA1124DACC3619B186A63175FF4C7A3 /* Pods-GlowingEffectView_Example */,
+				198074408312774D665C7EFE035EA9B1 /* Pods-GlowingEffectView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		274A8468F82133799E850446167A4E0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387B030709FC9F64031999B56B06664D /* Pods-GlowingEffectView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396086AE8E5D55CFA90E91777A38E7DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F90DF91D80975277FB865AE889EB11 /* Pods-GlowingEffectView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50BD359DF11D9874042D5C30F9C79B16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC37F17B6BCF88BDDB4386A078BCA5DD /* GlowingEffectView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EFF65485014677F94FC3ABD8E0B63D8 /* Pods-GlowingEffectView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113A102BECE597E03E75D720D63B84B6 /* Build configuration list for PBXNativeTarget "Pods-GlowingEffectView_Example" */;
+			buildPhases = (
+				3C8E704B040048C5D72B8D5D7CBA4D11 /* Sources */,
+				664E273B8E6C25CC7950CBB627029E95 /* Frameworks */,
+				274A8468F82133799E850446167A4E0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0FC038959246862E88F8C9B5B39C68 /* PBXTargetDependency */,
+			);
+			name = "Pods-GlowingEffectView_Example";
+			productName = "Pods-GlowingEffectView_Example";
+			productReference = FF7091579CDDBFB6133CB58397F448CE /* Pods_GlowingEffectView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2B53BE5570D22142E2514C7457E7EF4 /* GlowingEffectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B9833BD81EB903A7BA4E641D28CE9 /* Build configuration list for PBXNativeTarget "GlowingEffectView" */;
+			buildPhases = (
+				47EDE87D09C11FAD857431F494CFDA32 /* Sources */,
+				222F19B5FFAFA8F7D45784B846CB12AF /* Frameworks */,
+				50BD359DF11D9874042D5C30F9C79B16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowingEffectView;
+			productName = GlowingEffectView;
+			productReference = C70EE9674F935A72069BB38CDDAD96CA /* GlowingEffectView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B048637A03FFE820F805BEDD0BEAD6AF /* Pods-GlowingEffectView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00607EE8234281445826609FB3FE1433 /* Build configuration list for PBXNativeTarget "Pods-GlowingEffectView_Tests" */;
+			buildPhases = (
+				816BB546FE81BB752DAF41FDF19B2327 /* Sources */,
+				B49D0585393B9F4708138A500C0752FC /* Frameworks */,
+				396086AE8E5D55CFA90E91777A38E7DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GlowingEffectView_Tests";
+			productName = "Pods-GlowingEffectView_Tests";
+			productReference = CAAAB9C32C5AFB288BD69E5A19B4A0F9 /* Pods_GlowingEffectView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A2B53BE5570D22142E2514C7457E7EF4 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3514BA5CE2A1D4F7CF3C22740AAF3FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B53BE5570D22142E2514C7457E7EF4 /* GlowingEffectView */,
+				6EFF65485014677F94FC3ABD8E0B63D8 /* Pods-GlowingEffectView_Example */,
+				B048637A03FFE820F805BEDD0BEAD6AF /* Pods-GlowingEffectView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8E704B040048C5D72B8D5D7CBA4D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96C0836B04864D53548BCB7819398F8 /* Pods-GlowingEffectView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDE87D09C11FAD857431F494CFDA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9673D9AF3A0B23D2DC8A64739C489420 /* GlowingEffectView-dummy.m in Sources */,
+				F826AE391F14C433007822E3 /* GlowingEffectView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816BB546FE81BB752DAF41FDF19B2327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C67051824EBFF5960029386BD9C22B /* Pods-GlowingEffectView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0FC038959246862E88F8C9B5B39C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GlowingEffectView;
+			target = A2B53BE5570D22142E2514C7457E7EF4 /* GlowingEffectView */;
+			targetProxy = 3685BD460205A9F0E811BC11259D8D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3573D5330FDEEA5CC2A8861D4192A6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5475F699DD8990F9DE5566CDAF28B453 /* Pods-GlowingEffectView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlowingEffectView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlowingEffectView_Example/Pods-GlowingEffectView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlowingEffectView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C27086CCFE9C24EF08062D507A1A086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42074DB7D3D8F500BFFECCA322AF3B7A /* Pods-GlowingEffectView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlowingEffectView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlowingEffectView_Tests/Pods-GlowingEffectView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlowingEffectView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF574F4AFF2E04B302B3F2B07A096A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E088F5310C743E649707E1FCAB0C73 /* GlowingEffectView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GlowingEffectView/GlowingEffectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlowingEffectView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlowingEffectView/GlowingEffectView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GlowingEffectView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		921C39E2E4EE861117FA3329BBD6E116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6900EC2841269821FFD7B66792A74F1E /* Pods-GlowingEffectView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlowingEffectView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlowingEffectView_Tests/Pods-GlowingEffectView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlowingEffectView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEE8198FA001AD5C2A1F5CFB67AFDB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0066C0E852E28E283F1BF3559920C17D /* Pods-GlowingEffectView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GlowingEffectView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlowingEffectView_Example/Pods-GlowingEffectView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlowingEffectView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF93642170DCD8DEEAF7333F5D76E19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E088F5310C743E649707E1FCAB0C73 /* GlowingEffectView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GlowingEffectView/GlowingEffectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlowingEffectView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlowingEffectView/GlowingEffectView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GlowingEffectView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00607EE8234281445826609FB3FE1433 /* Build configuration list for PBXNativeTarget "Pods-GlowingEffectView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C27086CCFE9C24EF08062D507A1A086 /* Debug */,
+				921C39E2E4EE861117FA3329BBD6E116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113A102BECE597E03E75D720D63B84B6 /* Build configuration list for PBXNativeTarget "Pods-GlowingEffectView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3573D5330FDEEA5CC2A8861D4192A6D6 /* Debug */,
+				BEE8198FA001AD5C2A1F5CFB67AFDB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B9833BD81EB903A7BA4E641D28CE9 /* Build configuration list for PBXNativeTarget "GlowingEffectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF574F4AFF2E04B302B3F2B07A096A6 /* Debug */,
+				EF93642170DCD8DEEAF7333F5D76E19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
