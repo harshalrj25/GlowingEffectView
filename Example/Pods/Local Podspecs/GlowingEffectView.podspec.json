@@ -1,7 +1,7 @@
 {
   "name": "GlowingEffectView",
   "version": "0.1.0",
-  "summary": "A short description of GlowingEffectView.",
+  "summary": "Glow your UIView with a gradient effect",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/harshalrj25/GlowingEffectView",
   "license": {

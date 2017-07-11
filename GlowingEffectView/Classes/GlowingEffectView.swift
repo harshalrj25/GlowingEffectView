@@ -1,10 +1,11 @@
 //
 //  GlowingEffectView.swift
-//  RainbowDemo
+//  Pods
 //
 //  Created by Harshal Jadhav on 11/07/17.
-//  Copyright © 2017 Harshal Jadhav. All rights reserved.
 //
+//
+
 import Foundation
 import UIKit
 @IBDesignable
@@ -28,8 +29,8 @@ class GlowingEffectView: UIView {
     
     override func prepareForInterfaceBuilder() {
         self.backgroundColor = UIColor.clear
-
-
+        
+        
     }
     
     func glowing(baseColor: UIColor, radius: CGFloat, shine: CGFloat) {
@@ -92,7 +93,7 @@ class CircularGradientLayer : CALayer {
         }
         return values
     }
-
+    
 }
 extension CGRect {
     var rightBottom: CGPoint {
