@@ -21,25 +21,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9Y-Ps-DKY" customClass="GlowingEffectView" customModule="GlowingEffectView">
-                                <rect key="frame" x="67" y="184" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bW2-zD-lEs" customClass="GlowingEffectView" customModule="GlowingEffectView">
+                                <rect key="frame" x="143" y="127" width="88" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NeI-Sh-Dq6"/>
+                                    <constraint firstAttribute="width" constant="88" id="Ymm-Qn-2il"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radius">
-                                        <real key="value" value="55"/>
+                                        <real key="value" value="41"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                        <color key="value" red="0.0" green="0.96257095723508179" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shine">
                                         <real key="value" value="1.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLF-qW-rHm">
+                                <rect key="frame" x="137.5" y="318" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.50398108529999996" green="0.52982102499999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MxL-DQ-qUQ"/>
+                                </constraints>
+                                <state key="normal" title="ADD">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i05-Gf-gyM"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.071469119318601115" blue="0.2217441307106599" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bW2-zD-lEs" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2SX-Mh-bMN"/>
+                            <constraint firstItem="XLF-qW-rHm" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="3F8-qq-Rqj"/>
+                            <constraint firstItem="XLF-qW-rHm" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="fUc-aS-7XO"/>
+                            <constraint firstItem="bW2-zD-lEs" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="107" id="iJ8-vB-7GH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="42.728635682158924"/>
         </scene>
     </scenes>
 </document>

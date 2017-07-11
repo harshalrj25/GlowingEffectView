@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 @IBDesignable
-class GlowingEffectView: UIView {
-    @IBInspectable var radius:CGFloat = 55
-    @IBInspectable var shine:CGFloat = 1.6
-    @IBInspectable var baseColor:UIColor = UIColor(red: (39.0/255.0), green: (252.0/255), blue: (196.0/255.0), alpha: 1.0)
+public class GlowingEffectView: UIView {
+    @IBInspectable public var radius:CGFloat = 50
+    @IBInspectable public var shine:CGFloat = 1.6
+    @IBInspectable public var baseColor:UIColor = UIColor(red: (39.0/255.0), green: (252.0/255), blue: (196.0/255.0), alpha: 1.0)
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
     }
     
@@ -22,15 +22,14 @@ class GlowingEffectView: UIView {
         super.init(frame: frame)
     }
     
-    override func draw(_ rect: CGRect) {
-        self.backgroundColor = UIColor.clear
+    
+    override public func draw(_ rect: CGRect) {
         self.glowing(baseColor: baseColor, radius: radius, shine: shine)
     }
     
-    override func prepareForInterfaceBuilder() {
+    public override func layoutSubviews() {
+        super.layoutSubviews()
         self.backgroundColor = UIColor.clear
-        
-        
     }
     
     func glowing(baseColor: UIColor, radius: CGFloat, shine: CGFloat) {

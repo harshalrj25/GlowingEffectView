@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GlowingEffectView/Classes/**/*"
+  "source_files": "GlowingEffectView/Classes/*"
 }
