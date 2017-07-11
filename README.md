@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/GlowingEffectView.svg?style=flat)](http://cocoapods.org/pods/GlowingEffectView)
 [![Platform](https://img.shields.io/cocoapods/p/GlowingEffectView.svg?style=flat)](http://cocoapods.org/pods/GlowingEffectView)
 
+![alt text](https://github.com/harshalrj25/GlowingEffectView/blob/master/image.png "SCREEN SHOT")
+![alt text](https://github.com/harshalrj25/GlowingEffectView/blob/master/demo.gif "DEMO")
+![alt text](https://github.com/harshalrj25/GlowingEffectView/blob/master/use.gif "USAGE")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
