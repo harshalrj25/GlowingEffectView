@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GlowingEffectView_Example' do
+  pod 'GlowingEffectView', :path => '../'
+
+  target 'GlowingEffectView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
