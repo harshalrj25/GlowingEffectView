@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import GlowingEffectView
 
 class ViewController: UIViewController {
-
+    let v: GlowingEffectView =  GlowingEffectView()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
