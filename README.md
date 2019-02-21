@@ -46,4 +46,5 @@ Harshal Jadhav
 
 ## License
 
-GlowingEffectView is available under the MIT license. See the LICENSE file for more info.
+
+It's all your's :gift: 
