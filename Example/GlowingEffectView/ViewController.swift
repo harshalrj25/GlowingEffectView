@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 }
 extension UIColor {
     class func randomColor(randomAlpha randomApha:Bool = false)->UIColor{
-        
+
         let redValue = CGFloat(arc4random_uniform(255)) / 255.0;
         let greenValue = CGFloat(arc4random_uniform(255)) / 255.0;
         let blueValue = CGFloat(arc4random_uniform(255)) / 255.0;
